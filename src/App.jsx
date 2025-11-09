@@ -502,7 +502,7 @@ function MusicPlayer({ daysRemaining }) {
         <div className="music-player-schedule">
           <div className="schedule-title">Today's Song</div>
           {currentSong && (
-            <div className="schedule-item today">
+            <div className="schedule-item today flex flex-col">
               <span className="schedule-day">Song {currentTrackIndex + 1}</span>
               <span className="schedule-song">{currentSong.title}</span>
               <span className="schedule-status">🎵 Playing Today</span>

@@ -933,8 +933,8 @@
 }
 
 .schedule-items {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   gap: 0.5rem;
   max-height: 250px;
   overflow-y: auto;
