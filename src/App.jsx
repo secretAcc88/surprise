@@ -11,7 +11,7 @@ const BIRTHDAY_PERSON = 'shahoda' // Change this to the person's name
 const getTargetDate = () => {
   const now = new Date()
   const currentYear = now.getFullYear()
-  const targetDate = new Date(`${currentYear}-11-2T00:00:00`)
+  const targetDate = new Date(`${currentYear}-11-27T00:00:00`)
   
   // If November 27th has passed this year, use next year
 //   if (targetDate < now) {
