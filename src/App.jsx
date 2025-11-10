@@ -11,7 +11,7 @@ const BIRTHDAY_PERSON = 'shahoda' // Change this to the person's name
 const getTargetDate = () => {
   const now = new Date()
   const currentYear = now.getFullYear()
-  const targetDate = new Date(`${currentYear}-11-27T00:00:00`)
+  const targetDate = new Date(`${currentYear}-11-2T00:00:00`)
   
   // If November 27th has passed this year, use next year
 //   if (targetDate < now) {
@@ -34,7 +34,7 @@ const SONGS_LIST = [
   { id: 1, title: 'Ya Aashikata El Wardi', url: 'https://music.youtube.com/watch?v=dDIyA7Gk7kY' },
 
 
-  { id: 2, title: 'Ya Habibi', url: 'https://music.youtube.com/watch?v=UgGf-H04_jw' },
+  { id: 2, title: 'Habibty Malak', url: 'https://music.youtube.com/watch?v=qD_O19z1I3s' },
   
   { id: 3, title: 'Koun', url: 'https://music.youtube.com/watch?v=RPspk7dn6Bs' },
   
@@ -755,7 +755,8 @@ function App() {
 
   // Show full birthday celebration when countdown ends
   return (
-    <div className="birthday-app   ">
+    <div calssName="p-10">
+    <div className="birthday-app ">
       <div className="" >
       <AnimatePresence>
         {showCelebration && (
@@ -938,7 +939,7 @@ function App() {
         {/* Music Player with all songs unlocked */}
         <MusicPlayer daysRemaining={-1} className="w-1/2"/>
       </div>
-    </div>
+    </div></div>
   )
 }
 
